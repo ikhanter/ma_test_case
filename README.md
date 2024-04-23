@@ -22,9 +22,11 @@ Mandatory data:
 
 ### Solution
 Парсер сам выбирает случайную категорию, извлекает субкатегории товаров и отправляет асинхронные запросы к API с целью получения списка товаров заданных субкатегорий из магазинов конкретного города. Затем полученные данные конвертируются в Dataframe и экспортируются в CSV.
+
 В рамках задания были выбраны магазины Москвы и Санкт-Петербурга (они определены из общего списка магазинов по графе города, но можно автоматизировать и рандомизировать (либо сделать полный парсинг по всем городам) и этот процесс).
 
 The parser itself selects a random category, extracts subcategories of goods and sends asynchronous requests to the API in order to obtain a list of goods of specified subcategories from stores in a specific city. Then the resulting data is converted into a Dataframe and exported to CSV.
+
 As part of the task, stores in Moscow and St. Petersburg were selected (they were determined from the general list of stores by city column, but this process can be automated and randomized (or do a full parsing for all cities)).
 
 ### Path
