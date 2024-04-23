@@ -6,9 +6,8 @@ import aiohttp
 import asyncio
 import pandas as pd
 
-# Получены через get_categories() и get_subcategories()
-HOME_URL = 'https://online.metro-cc.ru'
 
+HOME_URL = 'https://online.metro-cc.ru'
 QUERY_SQL = 'https://online.metro-cc.ru/api/graphql'
 
 # Подготовка запроса и поиск необходимых для парсинга магазинов
