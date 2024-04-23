@@ -37,4 +37,5 @@ As part of the task, stores in Moscow and St. Petersburg were selected (they wer
 
 ### Examples
 ```Сладости_ чипсы_ снеки_Moscow.csv```
+
 ```Сладости_ чипсы_ снеки_SPb.csv```
